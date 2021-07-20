@@ -1,9 +1,10 @@
-# Coursera Capstone Report
+# Coursera Capstone Report: San Francisco Crime 
+### By: Ketan M, July 23, 2021
 
 ## Part 1 Introduction:
 
 #### 1.1 Background:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;San Francisco is a huge city with a diverse and large population. It is home to many and provides numerous jobs and opportunities. Throughout San Francisco, there are many areas with high crime rates. These high crime rates can influence where people shop to where people live. Each year the crime rates in different areas change, resulting in a different environment. Looking at the rate and type of crime in a multitude of areas is really important in order to ensure your well-being. This information, derived from crime reports by the San Francisco Police Department, can tell you where are the safest places to travel or safest routes in the city. Obviously, this data can be very useful in order to keep safe. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;San Francisco is a huge city with a diverse and large population. It is home to many and provides numerous jobs and opportunities. Throughout San Francisco, there are many areas with high crime rates. These high crime rates can influence where people shop to where people live. Each year the crime rates in different areas change, resulting in a different environment. Looking at the rate and type of crime in a multitude of areas is really important in order to ensure your well-being. This information, derived from crime reports by the San Francisco Police Department, can tell you where are the safest places to travel or safest routes in the city. Obviously, this data can be very useful in order to keep the city safe. 
 
 #### 1.2 Problem:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are two main problems that the data will solve. First, it will find which areas have the highest crime rate in certain months of a year and plot that on interactive maps. The data will also find the nearest venue, distance, and San Francisco crime to an address that the user chooses. Secondly, the data will also be used to find the top 3 types of crimes in each district and compare and group each district to each other based on the type of crime and frequency. I will use the KMeans model to solve this. Basically, problem one is to find where are most of the crimes in San Francisco located and the second problem is which are the most common types of crime in San Francisco. 
@@ -23,4 +24,19 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To solve the first question, we need to use the frequency of the locations of the crimes. So, if there are crimes with the same location, I will keep them in order to produce an accurate model. Also, there is a bunch of useless information that has nothing to do with this question so in the feature selection section I will discard the useless information. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To solve the second question, we need to use the frequency of the category of crime. So, if there are redundant locations and category, I will keep them in order to produce an accurate model. Once again, there is a lot of data that has nothing to do with this question so in the feature selection section I will discard the useless information. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To solve the second question, we need to use the frequency of the category of crime. So, if there are redundant locations and categories, I will keep them in order to produce an accurate model. Once again, there is a lot of data that has nothing to do with this question so in the feature selection section I will discard the useless information. 
+
+#### 2.3 Feature Selection
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The two data sets have a lot of information that does not help get the answers to the problems. So, in order to lower the size of the data, I remove a lot of information that does not relate to the problem. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the first data set, sf_crime_1, I start off with 878049 samples and 14 features. Now, a lot of this information is useless. So I remove them. I remove the Timestamp, Category, Description, Day of the Week, Resolution, Day, Hour, and Minute. I do not remove the year and the months because I want to create an interval for the data in order to reduce the number of samples. So, I only choose the samples from the first four months of 2014. Now I have 24228 samples and 6 features, the features being the District, Address, Latitude, Longitude, Year, and Month. I also reset the index here. This question has three main parts, so I copy this data into three data sets, sf_crime_cluster, sf_crime_heat, and sf_crime_venue. These data sets are used to create a cluster marker map, a heat map, and a venue finding algorithm. 
+
+<img width="488" alt="Screen Shot 2021-07-20 at 10 52 59 AM" src="https://user-images.githubusercontent.com/76541886/126372340-0b3afe90-8e75-4840-b84b-c8d4ad99010e.png">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the second data set, sf_crime_2, I once again start off with 878049 samples and 14 features. Now since the frequency of crime in a district is needed, keeping all the samples is important in order to get an accurate model. Also, since we are classifying only 10 districts, the runtime should be relatively quick. In this data set, I also drop some features. I remove the Timestamp, Day of the Week, Resolution, Month, Day, Hour, and Minute. So now I have 878049 samples and 7 features, the features being Category, Description, District, Address, Latitude, Longitude, and Year. Using this data set and other libraries, I can create more data sets that can solve the question. 
+
+<img width="814" alt="Screen Shot 2021-07-20 at 11 05 45 AM" src="https://user-images.githubusercontent.com/76541886/126373550-b715bb16-4bc4-4133-9e2d-f54ecb45aa3b.png">
+
+## Part 3 Data Methodology:
+
+####
