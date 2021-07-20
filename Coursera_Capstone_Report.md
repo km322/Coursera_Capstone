@@ -10,3 +10,10 @@ There are two main problems that the data will solve. First, it will find which 
 
 #### 1.3 Interest:
 Tourists and the police would be interested in the results of this project for many reasons. Firstly, Tourists can figure out where are the safest places to travel and the safest routes in San Francisco. Secondly, the police can figure out where to send their patrolling officers based on the type of crime and frequency of crime. This can make the San Francisco streets safer for everybody. Therefore, this project can contribute much-needed information to the general public.
+
+## Part 2 Data Acquisition and Cleaning:
+
+#### 2.1 Data Sources:
+I will use Kaggle datasets and Foursquare location data in order to solve the problems. I will use the "San Francisco Crime Classification" dataset in Kaggle, and here is the link to it https://www.kaggle.com/kaggle/san-francisco-crime-classification. This has data about San Francisco crimes from 2003 to 2015. I will also use a multitude of libraries. The libraries I will use are Folium, Pandas, Numpy, Requests, Sklearn, Matplotlib, Geopy, and some data booting libraries. The data and libraries will help me perform the data analysis and result in some interesting conclusions. 
+
+#### 2.2 Data Cleaning: 
