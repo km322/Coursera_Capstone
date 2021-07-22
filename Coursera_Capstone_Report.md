@@ -62,3 +62,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now I want to visualize the cluster on a map. So I create a map centered on San Francisco using Folium. I then plot the districts using the coordinate data created a little bit ago. Each data point has a color representing its cluster label. Each point has a label stating the District Name and the cluster label. So, I basically have compared and clustered each San Francisco District to each other. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I have successfully found the most common types of crime in each San Francisco Districts. I have also compared and clustered each District using an unsupervised machine learning model called KMeans. Keep in mind that the data in this problem is from 2003 to 2015. I have visualized the results in the Results section of this report. 
+
+## Part 4 Results:
+
+### Problem 1 Results:
