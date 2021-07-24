@@ -65,7 +65,7 @@
 
 ## Part 4 Results:
 
-### Problem 1 Results:
+### 4.1 Problem 1 Results:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Visualizing the locations of the crimes led to two maps. Each map is interactive and shows where most of the crimes are. They show the crimes in San Francisco in the time interval 2014 January to 2014 April. 
 
 Marker Cluster Map:
@@ -84,8 +84,8 @@ Heat Map:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can enter an address and it results in the following information. 
 
-### Problem 2 Results:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this problem there was a large methodology to get to the result. So, I will display the results of some of the steps. 
+### 4.2 Problem 2 Results:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this problem there was a large methodology to get to the result. So, I will display the results of some of the steps. Keep in mind that this data has a 12-year interval from 2003 to 2015. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The fist step, checking crime values, is displayed below.
 
@@ -119,7 +119,22 @@ Heat Map:
 
 <img width="800" alt="Screen Shot 2021-07-23 at 8 05 38 PM" src="https://user-images.githubusercontent.com/76541886/126855732-be4faad6-6a6a-408b-8b96-8fe2219b0a8c.png">
 
-## Part 5 Interpereting Results:
+## Part 5 Interpreting Results:
 
-### Problem 1:
+### 5.1 Overview:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interpreting the results can lead to conclusions, however, the conclusions might be skewed due to factors out of my control. An example of this is that this data is taken from Police reports, meaning that crimes that were not reported nor found out were not accounted for in this analysis. Also, the crime data represent San Francisco crime, so if there was crime taken near the borders of San Francisco, it might now have been accounted for.  
 
+### 5.2 Problem 1:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We can interpret the interactive maps by saying that crime density was particularly high in northwest San Francisco. We can also say that crime density was the lowest in the southeast area of San Francisco. Also, this is crime density per unit of area. So, the population density might have also affected this. Nevertheless, we can conclude that northeastern San Francisco contains the highest rate of crime based on the maps generated based on the data. I would recommend sending more police forces to the northeastern area of San Francisco. I would also recommend avoiding the northeastern area. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The interactive cell of my code might not have much to interpret, but its basically an app to users find the safest locations to travel to. It could help users plan out their travel plans and stay safe. 
+
+Keep in mind these results relate to the first 4 months of 2014. 
+
+### 5.3 Problem 2: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This problem has highly interpretable results that can benefit a lot of people. First, the map demonstrates that the central and southern parts of San Francisco have the same types of crime and are really similar to each other. They are areas that contain minor crimes like theft and non-criminal offenses. The north section of San Francisco contains a lot of crime relating to more scary aspects of life. It has a huge amount of theft, a lot of drug usage, and a lot of other offenses. This means that the northern section required more caution in regards to drugs and property theft. The southern and central areas of San Francisco seem to require less caution in regards to drugs, but other minute crimes like small theft still need to be watched for. I also recommend sending officers specialized in theft and drugs in the northern areas while sending general small crime officers to the southern areas. 
+
+Keep in mind these results relate to a 12-year interval from 2003 to 2015. 
+
+### 5.4 Combined Conclusion:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The combined conclusion from both of the problems is really useful to everybody. First off, the Northern area of San Francisco contains crime relating to drugs and theft. This crime is much more common in this area. The central and southern area has crimes relating to theft and non-criminal offenses. This crime is less common. Basically, we can infer that the southern areas of San Francisco are safer to travel to. If you travel to the northern areas, be wary of theft and drug usage. I would recommend sending more officers to northeastern San Francisco to deal with theft and drugs. I would recommend sending fewer officers to the southern areas and, if needed, specifically keep watch for small crimes. I think that these recommendations will help keep everybody in San Francisco safer. 
