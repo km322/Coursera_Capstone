@@ -66,3 +66,20 @@
 ## Part 4 Results:
 
 ### Problem 1 Results:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Visualizing the locations of the crimes led to two maps. Each map is interactive and shows where most of the crimes are. They show the crimes in San Francisco in the time interval 2014 January to 2014 April. 
+
+Marker Cluster Map:
+
+<img width="834" alt="Screen Shot 2021-07-23 at 6 47 36 PM" src="https://user-images.githubusercontent.com/76541886/126854117-0af1360e-59ca-4295-9247-1575e6b8ae24.png">
+
+Heat Map:
+
+<img width="840" alt="Screen Shot 2021-07-23 at 6 48 05 PM" src="https://user-images.githubusercontent.com/76541886/126854129-be520908-f1a3-4222-9f97-7d1b760269cd.png">
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As you can see the nothwest area of San Francisco has the highest amount of crime and the highest desnity. The southeast area of San Francisco is the complete oposite. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here is an example of the venue code specified in the Methodology Section. 
+
+<img width="802" alt="Screen Shot 2021-07-23 at 7 40 33 PM" src="https://user-images.githubusercontent.com/76541886/126855248-26778053-40e2-4c75-9084-9f3a7bbfe237.png">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can enter an address and it results in the following information. 
