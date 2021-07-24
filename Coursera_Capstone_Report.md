@@ -57,7 +57,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The previous paragraph is the methodology of the setup of the map and clustering. In this paragraph, I will talk about finding the most common types of crimes in a district. So first, I define the function, return_most_common_crime, which, as it states, returns the most common crimes. So, I then indicate that I want the top three crimes to be displayed, and then create a data set called PdDistrict_sorted. It has the 10 districts and the top 3 most frequent crimes in each district. This is highly interpretable and tells you which districts have the most common type of crimes. I will share the data in the Results section of this Notebook. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I then use a unsupervised machine learning model called KMeans. It is a categorical model that is really fast and can draw conclusions based on unsupervised data. It creates clusters based on the data and categorizes information. I want to compare and cluster districts, so KMeans is a great way to do so. In order to use the KMeans model, I define the number of clusters, 3, and then clean the sf_crime_grouped data set by removing non-numeric data. I then run and fit the KMeans model and then get the cluster labels that I then merge with the coordinate data. So, I now have a data set called sf_merged that has the District, Latitude, Longitude, Cluster Label, 1st Most Common Crime, 2nd Most Common Crime, and 3rd Most Common Crime. I will share the results in the Results section of this report.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I then use an unsupervised machine learning model called KMeans. It is a categorical model that is really fast and can draw conclusions based on unsupervised data. It creates clusters based on the data and categorizes information. I want to compare and cluster districts, so KMeans is a great way to do so. In order to use the KMeans model, I define the number of clusters, 3, and then clean the sf_crime_grouped data set by removing non-numeric data. I then run and fit the KMeans model and then get the cluster labels that I then merge with the coordinate data. So, I now have a data set called sf_merged that has the District, Latitude, Longitude, Cluster Label, 1st Most Common Crime, 2nd Most Common Crime, and 3rd Most Common Crime. I will share the results in the Results section of this report.  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now I want to visualize the cluster on a map. So I create a map centered on San Francisco using Folium. I then plot the districts using the coordinate data created a little bit ago. Each data point has a color representing its cluster label. Each point has a label stating the District Name and the cluster label. So, I basically have compared and clustered each San Francisco District to each other. 
 
@@ -85,9 +85,9 @@ Heat Map:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can enter an address and it results in the following information. 
 
 ### 4.2 Problem 2 Results:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this problem there was a large methodology to get to the result. So, I will display the results of some of the steps. Keep in mind that this data has a 12-year interval from 2003 to 2015. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this problem, there was a large methodology to get to the result. So, I will display the results of some of the steps. Keep in mind that this data has a 12-year interval from 2003 to 2015. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The fist step, checking crime values, is displayed below.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first step, checking crime values, is displayed below.
 
 <img width="621" alt="Screen Shot 2021-07-23 at 7 55 52 PM" src="https://user-images.githubusercontent.com/76541886/126855574-da94d12d-5283-4763-985f-69e9bb88328c.png">
 
@@ -103,7 +103,7 @@ Heat Map:
 
 <img width="855" alt="Screen Shot 2021-07-23 at 8 01 18 PM" src="https://user-images.githubusercontent.com/76541886/126855644-833a40a7-6d88-4cf1-aff7-2a280d0d8dbf.png">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The most common type of crimes for each category is created, it is shown below.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The most common type of crimes for each category is created, which is shown below.
 
 <img width="566" alt="Screen Shot 2021-07-23 at 8 03 30 PM" src="https://user-images.githubusercontent.com/76541886/126855680-13b438e2-4bd6-4933-ad9b-6664ff1481b5.png">
 
@@ -111,7 +111,7 @@ Heat Map:
 
 <img width="839" alt="Screen Shot 2021-07-23 at 8 04 09 PM" src="https://user-images.githubusercontent.com/76541886/126855710-e6d63b3d-4398-4516-87f9-768a20a77a9b.png">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The images below show the districts in each cluster. It has three clusters and 10 district. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The images below show the districts in each cluster. It has three clusters and 10 districts. 
 
 <img width="779" alt="Screen Shot 2021-07-23 at 8 05 31 PM" src="https://user-images.githubusercontent.com/76541886/126855727-5f418501-ac34-4ec6-9437-92e725cbcff5.png">
 
@@ -127,7 +127,7 @@ Heat Map:
 ### 5.2 Problem 1:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We can interpret the interactive maps by saying that crime density was particularly high in northwest San Francisco. We can also say that crime density was the lowest in the southeast area of San Francisco. Also, this is crime density per unit of area. So, the population density might have also affected this. Nevertheless, we can conclude that northeastern San Francisco contains the highest rate of crime based on the maps generated based on the data. I would recommend sending more police forces to the northeastern area of San Francisco. I would also recommend avoiding the northeastern area. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The interactive cell of my code might not have much to interpret, but its basically an app to users find the safest locations to travel to. It could help users plan out their travel plans and stay safe. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The interactive cell of my code might not have much to interpret, but it's basically an app to users find the safest locations to travel to. It could help users plan out their travel plans and stay safe. 
 
 Keep in mind these results relate to the first 4 months of 2014. 
 
