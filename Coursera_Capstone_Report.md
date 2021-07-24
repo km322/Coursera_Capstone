@@ -76,10 +76,50 @@ Heat Map:
 
 <img width="840" alt="Screen Shot 2021-07-23 at 6 48 05 PM" src="https://user-images.githubusercontent.com/76541886/126854129-be520908-f1a3-4222-9f97-7d1b760269cd.png">
  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As you can see the nothwest area of San Francisco has the highest amount of crime and the highest desnity. The southeast area of San Francisco is the complete oposite. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As you can see the northwest area of San Francisco has the highest amount of crime and the highest density. The southeast area of San Francisco is the complete opposite. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here is an example of the venue code specified in the Methodology Section. 
 
 <img width="802" alt="Screen Shot 2021-07-23 at 7 40 33 PM" src="https://user-images.githubusercontent.com/76541886/126855248-26778053-40e2-4c75-9084-9f3a7bbfe237.png">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can enter an address and it results in the following information. 
+
+### Problem 2 Results:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this problem there was a large methodology to get to the result. So, I will display the results of some of the steps. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The fist step, checking crime values, is displayed below.
+
+<img width="621" alt="Screen Shot 2021-07-23 at 7 55 52 PM" src="https://user-images.githubusercontent.com/76541886/126855574-da94d12d-5283-4763-985f-69e9bb88328c.png">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The second step, creating the sf_coods data set. The sf_coords data set:
+
+<img width="249" alt="Screen Shot 2021-07-23 at 7 59 07 PM" src="https://user-images.githubusercontent.com/76541886/126855591-a913107d-d941-4aaa-8c0b-7f80a11727d8.png">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Next, using One-Hot Encoding as a vectorizer. Using One-Hot Encoding:
+
+<img width="872" alt="Screen Shot 2021-07-23 at 8 00 17 PM" src="https://user-images.githubusercontent.com/76541886/126855615-7ea69528-19c0-4fe5-ab45-74e4e7b531e7.png">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating a frequency table for each district. This is a frequency table for categories of crime. 
+
+<img width="855" alt="Screen Shot 2021-07-23 at 8 01 18 PM" src="https://user-images.githubusercontent.com/76541886/126855644-833a40a7-6d88-4cf1-aff7-2a280d0d8dbf.png">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The most common type of crimes for each category is created, it is shown below.
+
+<img width="566" alt="Screen Shot 2021-07-23 at 8 03 30 PM" src="https://user-images.githubusercontent.com/76541886/126855680-13b438e2-4bd6-4933-ad9b-6664ff1481b5.png">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating a map that is based on the comparison of each district. The KMeans algorithm categorized each district and it is displayed in this map. 
+
+<img width="839" alt="Screen Shot 2021-07-23 at 8 04 09 PM" src="https://user-images.githubusercontent.com/76541886/126855710-e6d63b3d-4398-4516-87f9-768a20a77a9b.png">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The images below show the districts in each cluster. It has three clusters and 10 district. 
+
+<img width="779" alt="Screen Shot 2021-07-23 at 8 05 31 PM" src="https://user-images.githubusercontent.com/76541886/126855727-5f418501-ac34-4ec6-9437-92e725cbcff5.png">
+
+<img width="785" alt="Screen Shot 2021-07-23 at 8 05 35 PM" src="https://user-images.githubusercontent.com/76541886/126855729-a87f14a0-a34e-4035-8b45-caed08c76e1b.png">
+
+<img width="800" alt="Screen Shot 2021-07-23 at 8 05 38 PM" src="https://user-images.githubusercontent.com/76541886/126855732-be4faad6-6a6a-408b-8b96-8fe2219b0a8c.png">
+
+## Part 5 Interpereting Results:
+
+### Problem 1:
+
